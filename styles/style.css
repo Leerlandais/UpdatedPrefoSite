@@ -245,6 +245,8 @@ dd:target {
     font-size: 25px;
     margin-bottom: 10px;
     padding-right: 25px;
+    color: rgba(34, 76, 118, 1);
+    text-decoration: underline;
 }
 
 .interintro {
