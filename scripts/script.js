@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() { 
+document.addEventListener("DOMContentLoaded", function() {     // ensures that the JS is loaded when the page is displayed
 
 
 
-    var buttonQ1 = document.getElementById("q1");
-    buttonQ1.addEventListener('click', function() {
-        document.getElementById("intanswerJD").innerHTML = A1JD;
-        document.getElementById("intanswerMC").innerHTML = A1MC;
-        console.log("Button clicked");
+    var buttonQ1 = document.getElementById("q1");               // targets element and assigns var
+    buttonQ1.addEventListener('click', function() {             // waits for action, in this case "click" and launches function on True
+        document.getElementById("intanswerJD").innerHTML = A1JD;    // targets element and assigns text from var (see page end)
+        document.getElementById("intanswerMC").innerHTML = A1MC;    // as above
+        console.log("Button clicked");                              // shows Button Clicked in console, used as verification tool
     })
 
     
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("intanswerMC").innerHTML = A5MC;
         console.log("Button clicked");
     })
-
+            // contains the responses to my questions. Originally, these were included in the functions above but I thought it would be tidier to store them here
     var A1JD = "J'ai commencé le développement web pendant mon enfance. À l'époque, il y avait quelques sites populaires qui permettaient de bricoler avec HTML et CSS pour personnaliser son expérience. Deux d'entre eux que vous connaissez peut-être sont Neopets et Myspace. À cette époque, écrire du HTML et du CSS me permettait de créer une touche de personnalisation. En grandissant, le code est resté un outil qui m'a simplement aidé à accomplir des tâches..";
     var A2JD = "Mon expérience professionnelle a toujours été plus ou moins « technique ». À la fin de mon adolescence, j'ai travaillé dans la vente au détail chez le plus grand détaillant d'électronique aux États-Unis, mais j'ai constamment effectué des travaux de développement en contrat à côté. Une fois que j'ai quitté le commerce de détail, je suis passé à faire du développement de logiciels à plein temps. J'ai travaillé dans divers secteurs, du pétrole et du gaz à la santé, en passant par la finance. J'écris du code professionnellement depuis environ 15 ans, dont les 10 dernières années à plein temps. Tous mes rôles à ce jour ont impliqué au moins un peu de développement web. Je travaille actuellement en tant qu'architecte technique pour un grand fournisseur multinational de PGI. ";
     var A3JD = "Un aspect aigre-doux de ce domaine est qu'il est difficile de définir une routine quotidienne comme 'typique'. Les choses changent rapidement, de sorte que ce qui est 'typique' change presque quotidiennement. Je commence généralement la plupart des jours en lisant mes e-mails. Je vérifie si des éléments prioritaires sont arrivés pendant la nuit qui nécessitent mon attention. Ensuite, je passe en revue mon programme de réunions pour la journée. Certains jours, je n'ai aucune réunion du tout. D'autres jours, je serai en réunions de 8 h à 17 h, avec peu de répit entre les deux. Il est juste de dire qu'au moins 20 % de mon temps est consacré à une sorte de réunion. En milieu de matinée, nous avons généralement un point d'équipe. C'est l'occasion pour chacun de verbaliser ce sur quoi il travaille, quels sont ses obstacles et de quoi il a besoin pour avancer. En dehors des réunions, la journée est souvent consacrée à l'achèvement de différents tickets et demandes des clients. Ces tickets ne sont pas toujours strictement définis, et il n'est pas anormal de passer du temps à rechercher des demandes et à documenter les choses avant de se lancer dans n'importe quel type de code. Selon la nature du rôle et du projet sur lequel je travaille, il peut m'arriver d'avoir des jours et des semaines où je me concentre sur l'écriture de grandes quantités de code. En revanche, pour de nombreux projets, je passerai des mois à simplement rechercher des informations pour un projet sans jamais toucher une seule ligne de code.";
