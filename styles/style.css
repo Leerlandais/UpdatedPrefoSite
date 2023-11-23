@@ -98,6 +98,11 @@ li dt a {
 li dt a:hover {
     text-decoration: underline;
     font-style: italic;
+
+}
+
+.column ul li{
+    cursor: pointer;
 }
 
 #expoimg {                  /* pour positioner les images */
