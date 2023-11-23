@@ -261,7 +261,7 @@ dd:target {
     color: rgb(34,76,118);
 }
 
-.intanswer {
+#intanswerJD, #intanswerMC {
     font-size: larger;
     font-style: italic;
     font-family: Verdana, Tahoma, sans-serif;
