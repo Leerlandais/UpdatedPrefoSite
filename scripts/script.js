@@ -4,40 +4,40 @@ document.addEventListener("DOMContentLoaded", function() {     // ensures that t
 
     var buttonQ1 = document.getElementById("q1");               // targets element and assigns var
     buttonQ1.addEventListener('click', function() {             // waits for action, in this case "click" and launches function on True
-        document.getElementById("intanswerJD").innerHTML = A1JD;    // targets element and assigns text from var (see page end)
-        document.getElementById("intanswerMC").innerHTML = A1MC;    // as above
+        document.getElementById("intanswerJD").textContent = A1JD;    // targets element and assigns text from var (see page end)
+        document.getElementById("intanswerMC").textContent = A1MC;    // as above
         console.log("Button clicked");                              // shows Button Clicked in console, used as verification tool
     })
 
     
     var buttonQ2 = document.getElementById("q2");
     buttonQ2.addEventListener('click', function() {
-        document.getElementById("intanswerJD").innerHTML = A2JD;
-        document.getElementById("intanswerMC").innerHTML = A2MC;
+        document.getElementById("intanswerJD").textContent = A2JD;
+        document.getElementById("intanswerMC").textContent = A2MC;
         console.log("Button clicked");
     })
 
 
     var buttonQ3 = document.getElementById("q3");
     buttonQ3.addEventListener('click', function() {
-        document.getElementById("intanswerJD").innerHTML = A3JD;
-        document.getElementById("intanswerMC").innerHTML = A3MC;
+        document.getElementById("intanswerJD").textContent = A3JD;
+        document.getElementById("intanswerMC").textContent = A3MC;
         console.log("Button clicked");
     })
 
 
     var buttonQ4 = document.getElementById("q4");
     buttonQ4.addEventListener('click', function() {
-        document.getElementById("intanswerJD").innerHTML = A4JD;
-        document.getElementById("intanswerMC").innerHTML = A4MC;
+        document.getElementById("intanswerJD").textContent = A4JD;
+        document.getElementById("intanswerMC").textContent = A4MC;
         console.log("Button clicked");
     })
 
 
     var buttonQ5 = document.getElementById("q5");
     buttonQ5.addEventListener('click', function() {
-        document.getElementById("intanswerJD").innerHTML = A5JD;
-        document.getElementById("intanswerMC").innerHTML = A5MC;
+        document.getElementById("intanswerJD").textContent = A5JD;
+        document.getElementById("intanswerMC").textContent = A5MC;
         console.log("Button clicked");
     })
             // contains the responses to my questions. Originally, these were included in the functions above but I thought it would be tidier to store them here
